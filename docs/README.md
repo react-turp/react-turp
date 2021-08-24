@@ -1,3 +1,7 @@
+<h1 align="center">
+    <img src="https://avatars.githubusercontent.com/u/67695863?v=4" style="width: 160px;height: 150px;" alt="turp"> 
+</h1>
+
 <h1 align="center"> Turp React / Native </h1>
 <br/>
 <!-- <p align="center">
