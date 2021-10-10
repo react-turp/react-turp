@@ -64,7 +64,7 @@ Bom acima configuramos o nosso store, para integrar essa configuração a nossa 
 
 ```tsx
 import React from "react";
-import { TurpProvider } from "turp";
+import { TurpProvider } from "turp/provider";
 import { store } from "./store/createStore";
 
 const App: React.FC = () => {

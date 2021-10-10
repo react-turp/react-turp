@@ -1,0 +1,7 @@
+{
+  "name": "turp/action",
+  "private": true,
+  "main": "../dist/src/action.js",
+  "jsnext:main": "../dist/src/action.js",
+  "module": "../dist/src/action.js"
+}

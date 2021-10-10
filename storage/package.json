@@ -1,0 +1,7 @@
+{
+  "name": "turp/stprage",
+  "private": true,
+  "main": "../dist/src/storage.js",
+  "jsnext:main": "../dist/src/storage.js",
+  "module": "../dist/src/storage.js"
+}

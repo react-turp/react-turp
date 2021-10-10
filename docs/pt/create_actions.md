@@ -17,8 +17,8 @@ Agora como parâmetro da função createActions temos que passar um objeto conte
   field: string;
 
   Nossas actions é uma função que retorna 2 funções de dentro dela, no exemplo abaixo
-  "fildData" é uma função que retorna o estado baseado na "field", já o dispatch é uma função de atualização.
-  actions: (fildData, dispatch) => ....
+  "fieldData" é uma função que retorna o estado baseado na "field", já o dispatch é uma função de atualização.
+  actions: (fieldData, dispatch) => ....
 ```
 
 >OBS: Para utilizar o createActions primeiro tenha configurado o store e o provider ok?
@@ -31,16 +31,16 @@ import { IGlobal, IPosts } from '../createStore';
 
 const actionsPost = createActions<IGlobal, IPosts[]>({
   field: 'posts',
-  actions: (fildData, dispatch) => ({
+  actions: (fieldData, dispatch) => ({
     addNewPosts: item => {
-      const posts = fildData();
+      const posts = fieldData();
 
       posts.push(item as IPosts);
 
       dispatch(posts);
     },
     removePost: id => {
-      const posts = fildData();
+      const posts = fieldData();
 
       dispatch(posts.filter(p => p.id !== id));
     }

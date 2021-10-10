@@ -1,0 +1,7 @@
+{
+  "name": "turp/provider",
+  "private": true,
+  "main": "../dist/src/providers/index.js",
+  "jsnext:main": "../dist/src/providers/index.js",
+  "module": "../dist/src/providers/index.js"
+}

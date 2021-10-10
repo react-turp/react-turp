@@ -1,0 +1,7 @@
+{
+  "name": "turp/interceptor",
+  "private": true,
+  "main": "../dist/src/interceptor.js",
+  "jsnext:main": "../dist/src/interceptor.js",
+  "module": "../dist/src/interceptor.js"
+}
